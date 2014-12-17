@@ -1,0 +1,17 @@
+{
+  "name": "nukacode-admin",
+  "version": "0.0.1",
+  "description": "Admin theme for NukaCode sites",
+  "authors": [
+    "Stygian <stygian.warlock.v2@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/bower_components",
+    "test",
+    "tests"
+  ]
+}
