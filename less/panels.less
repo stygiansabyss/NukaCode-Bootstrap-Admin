@@ -1,0 +1,60 @@
+.panel-inverse {
+    .panel-variant(@panel-inverse-border; @panel-inverse-text; @panel-inverse-heading-bg; @panel-inverse-border);
+}
+
+.panel {
+    >.table {
+        & thead {
+            background-color: fadeout(@brand-primary, 80%);
+            border-bottom: 2px solid fadeout(@brand-primary, 70%);
+        }
+        & tr td, & tr th {
+            padding-left: 15px;
+        }
+    }
+    >.panel-alert {
+        &.panel-alert-info {
+            &:before {
+                font: normal normal normal 2em FontAwesome;
+                content: "\f05a";
+            }
+            background-color: lighten(@brand-info, 20%);
+            color: darken(@brand-info, 20%);
+            padding: 20px;
+            vertical-align: top;
+        }
+        &.panel-alert-warning {
+            &:before {
+                font: normal normal normal 2em FontAwesome;
+                content: "\f071";
+            }
+            background-color: lighten(@brand-warning, 20%);
+            color: darken(@brand-warning, 20%);
+            padding: 20px;
+            vertical-align: top;
+        }
+        &.panel-alert-success {
+            &:before {
+                font: normal normal normal 2em FontAwesome;
+                content: "\f00c";
+            }
+            background-color: lighten(@brand-success, 20%);
+            color: darken(@brand-success, 20%);
+            padding: 20px;
+            vertical-align: top;
+        }
+        &.panel-alert-danger {
+            &:before {
+                font: normal normal normal 2em FontAwesome;
+                content: "\f057";
+            }
+            background-color: lighten(@brand-danger, 20%);
+            color: darken(@brand-danger, 20%);
+            padding: 20px;
+            vertical-align: top;
+        }
+    }
+}
+.panel-body {
+    padding: 15px;
+}

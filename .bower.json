@@ -1,0 +1,30 @@
+{
+  "name": "nukacode-admin",
+  "version": "0.0.2",
+  "description": "Admin theme for NukaCode sites",
+  "authors": [
+    "Stygian <stygian.warlock.v2@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1"
+  },
+  "homepage": "https://github.com/stygiansabyss/NukaCode-Admin",
+  "_release": "0.0.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.2",
+    "commit": "facb74bf6fd96b1df03eab7cd8aac5a2597b57e8"
+  },
+  "_source": "git://github.com/stygiansabyss/NukaCode-Admin.git",
+  "_target": "~0.0.1",
+  "_originalSource": "nukacode-admin"
+}
